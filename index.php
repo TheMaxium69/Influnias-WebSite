@@ -30,26 +30,18 @@
       <hr />
 
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-6">
           <i class="fa fa-4x fa-paint-brush"></i>
 
-          <h2 class="h3">Sit dolores </h2>
+          <h2 class="h3">Abonnement</h2>
 
           <p>Lorem blandit vulputate elitr sit vero velit ut sed labore no erat hendrerit velit duis iriure labore sed eirmod</p>
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-6">
           <i class="fa fa-4x fa-code"></i>
 
-          <h2 class="h3">Sit dolores </h2>
-
-          <p>Lorem blandit vulputate elitr sit vero velit ut sed labore no erat hendrerit velit duis iriure labore sed eirmod</p>
-        </div>
-
-        <div class="col-sm-4">
-          <i class="fa fa-4x fa-tablet"></i>
-
-          <h2 class="h3">Sit dolores </h2>
+          <h2 class="h3">Evenement </h2>
 
           <p>Lorem blandit vulputate elitr sit vero velit ut sed labore no erat hendrerit velit duis iriure labore sed eirmod</p>
         </div>
@@ -59,27 +51,30 @@
 
   <section id="folio" class="sec-folio">
     <div class="container">
-      <h1>Sit dolores </h1>
+      <h1>Il nous on déjà rejoins</h1>
 
       <hr />
 
       <div class="row">
         <div class="col-md-4">
           <img class="center-block" src="https://source.unsplash.com/Oog0wehKxYs/450x450" alt="By Håkon Sataøen" />
+          <h3>DoubleT</h3>
         </div>
 
         <div class="col-md-4">
-          <img class="center-block" src="https://source.unsplash.com/EfpOiZvPbT4/450x450" alt="By Samuel Zeller" />
+          <img class="center-block" src="https://source.unsplash.com/2aoVQXwLf3g/450x450" alt="By Samuel Zeller" />
+          <h3>MA3WAN</h3>
         </div>
 
         <div class="col-md-4">
           <img class="center-block" src="https://source.unsplash.com/2aoVQXwLf3g/450x450" alt="By Scott Webb" />
+          <h3>AuroreTVv</h3>
         </div>
       </div>
 
       <div class="row">
         <div class="col-md-4">
-          <img class="center-block" src="https://source.unsplash.com/o2KD7JtqTlk/450x450" alt="By Has Bonk" />
+          <img class="center-block" src="https://source.unsplash.com/2aoVQXwLf3g/450x450" alt="By Has Bonk" />
         </div>
 
         <div class="col-md-4">
@@ -109,7 +104,7 @@
 
   <section id="testimonials" class="sec-testimonials">
     <div class="container">
-      <h1>Partenaire said</h1>
+      <h1>Message des fondateur</h1>
 
       <hr />
 
@@ -135,9 +130,34 @@
     </div>
   </section>
 
+  <section id="foliopart" class="sec-folio">
+    <div class="container">
+      <h1>Nos Soutien/Partenaire</h1>
+
+      <hr />
+
+      <div class="row">
+        <div class="col-md-4">
+          <img class="center-block" src="https://source.unsplash.com/Oog0wehKxYs/450x450" alt="By Håkon Sataøen" />
+          <h3>Grand-Est</h3>
+        </div>
+
+        <div class="col-md-4">
+          <img class="center-block" src="https://source.unsplash.com/2aoVQXwLf3g/450x450" alt="By Samuel Zeller" />
+          <h3>Tyrolium</h3>
+        </div>
+
+        <div class="col-md-4">
+          <img class="center-block" src="https://source.unsplash.com/2aoVQXwLf3g/450x450" alt="By Scott Webb" />
+          <h3>Auvergne-Rhone-Alpes</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section id="contact" class="sec-contact">
     <div class="container">
-      <h1>Hire me</h1>
+      <h1>Contactez-nous</h1>
 
       <hr />
 

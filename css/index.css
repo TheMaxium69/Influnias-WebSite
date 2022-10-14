@@ -228,3 +228,7 @@
   .soc-media-ul a:hover, .soc-media-ul a:focus {
     color: #ad0000;
   }
+
+  h3{
+    text-align: center;
+  }
