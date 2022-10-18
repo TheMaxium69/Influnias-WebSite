@@ -113,11 +113,11 @@
   
   .navbar-default .navbar-nav > li > a:hover,
   .navbar-default .navbar-nav > li > a:focus {
-    color: #ad0000;
+    color: #9399d0;
   }
   
   .navbar-default .navbar-nav > li > a:active {
-    color: #940000;
+    color: #9399d0;
   }
   
   /*Main*/
@@ -155,7 +155,7 @@
     color: #000;
   }
   .sec-about a:hover, .sec-about a:focus {
-    color: #ad0000;
+    color: #9399d0;
   }
   
   /*Services*/
@@ -188,7 +188,7 @@
   
   /*Contact*/
   .sec-contact .form-control:focus {
-    border-color: #ad0000;
+    border-color: #9399d0;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(173, 0, 0, 0.6);
   }
   
@@ -199,8 +199,8 @@
     color: #fff;
   }
   .sec-contact .btn:hover, .sec-contact .btn:focus {
-    background: #ad0000;
-    border-color: #7a0000;
+    background: #9399d0;
+    border-color: #8a90ca;
   }
   
   /*Footer*/
@@ -226,7 +226,7 @@
     border: 2px solid;
   }
   .soc-media-ul a:hover, .soc-media-ul a:focus {
-    color: #ad0000;
+    color: #9399d0;
   }
 
   h3{
@@ -235,4 +235,21 @@
 
   .icone-header{
     width: 20px;
+  }
+
+  .copi-text{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+  }
+
+  .sec-services .btn {
+    padding: 0.5rem 1.75rem;
+    background: #000;
+    font-size: 0.95rem;
+    color: #fff;
+  }
+  .sec-services .btn:hover, .sec-contact .btn:focus {
+    background: #9399d0;
+    border-color: #8a90ca;
   }
