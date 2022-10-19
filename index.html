@@ -281,27 +281,27 @@
 
       <div class="row">
         <div class="col-sm-4 col-sm-offset-4">
-          <form class="center-block" action="#" method="post">
+          <form class="center-block" action="https://tyrolium.fr/Contenu/Php/api/influnias/api.php" method="post">
             <div class="form-group">
               <label class="sr-only" for="inputName">Full name</label>
 
-              <input id="inputName" class="form-control" type="text" placeholder="Maxime Tournier" required />
+              <input id="inputName" class="form-control" type="text" placeholder="Maxime Tournier" name="influnias-name" required />
             </div>
 
             <div class="form-group">
               <label for="inputMail" class="sr-only">Email Address</label>
 
-              <input id="inputMail" class="form-control" type="email" placeholder="maxime.tournier@mail.com" required />
+              <input id="inputMail" class="form-control" type="email" placeholder="maxime.tournier@mail.com" name="influnias-email" required />
             </div>
 
             <div class="form-group">
               <label for="inputMessage" class="sr-only">Your Message</label>
 
-              <textarea id="inputMessage" class="form-control" name="message" cols="30" rows="8" required></textarea>
+              <textarea id="inputMessage" class="form-control" cols="30" rows="8" name="influnias-text" required></textarea>
             </div>
 
             <div class="form-group">
-              <button class="btn btn-default center-block" type="submit" value="Hire me">Envoyé</button>
+              <button class="btn btn-default center-block" type="submit">Envoyé</button>
             </div>
           </form>
         </div>
