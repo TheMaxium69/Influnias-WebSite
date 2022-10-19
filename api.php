@@ -7,9 +7,9 @@ if(isset($_POST['influnias-name']) && isset($_POST['influnias-email'])&& isset($
 
     if( !empty($_POST['influnias-name']) && !empty($_POST['influnias-email']) &&  !empty($_POST['influnias-text']) ){
 
-        $name = "*" . $_POST['influnias-name'] . "*";
-        $mail = "*" . $_POST['influnias-email'] . "*";
-        $content = "*" . $_POST['influnias-text'] . "*";
+        $name = crypt_influnias($_POST['influnias-name']);
+        $mail = crypt_influnias($_POST['influnias-email']);
+        $content = crypt_influnias($_POST['influnias-text']);
 
                 $requeteInsert = "INSERT INTO influnias(name, mail, content) VALUES ('$name', '$mail', '$content')";
 
@@ -25,6 +25,16 @@ if(isset($_POST['influnias-name']) && isset($_POST['influnias-email'])&& isset($
 
 }
 
+function crypt_influnias($content){
+
+    $content = str_replace("'", "&#039", $content);
+    $content = str_replace("ô", "&ocirc;", $content);
+    $content = str_replace("î", "&icirc;", $content);
+	$content = "*" . $content . "*";
+
+	return $content;
+
+}
 
 
 
